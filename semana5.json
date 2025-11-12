@@ -1,0 +1,115 @@
+{
+  "week": 5,
+  "title": "Dieta Semana 5 — Hipertrofia con déficit (frecuencia 2x)",
+  "objective": "Preservar/ganar densidad muscular mientras se pierde grasa.",
+  "weights_raw_food": true,
+  "if_window": "Opcional IF 16/8 (1ª comida ~12:30–13:30).",
+  "kcal": {
+    "base": 2200,
+    "refeed_min": 2400,
+    "refeed_max": 2450
+  },
+  "macros": {
+    "protein_g": 190,
+    "fat_g_min": 55,
+    "fat_g_max": 65,
+    "carbs_base_g_min": 200,
+    "carbs_base_g_max": 230,
+    "carbs_refeed_g_min": 270,
+    "carbs_refeed_g_max": 300
+  },
+  "reflux_notes": "Cena 2–3 h antes de dormir. Evita menta, chocolate, fritos y picantes; limita cítricos por la noche.",
+  "days": [
+    {
+      "day": "Lunes",
+      "block": "Upper 1",
+      "kcal_target": 2200,
+      "meals": [
+        { "name": "Comida 1", "items": "Pechuga pollo 190 g + arroz integral 70 g + brócoli 200 g + AOVE 10 g" },
+        { "name": "Snack post", "items": "Whey 30 g + plátano 100 g" },
+        { "name": "Cena", "items": "Merluza 200 g + patata cocida 160 g + calabacín 200 g + AOVE 5 g" }
+      ],
+      "approx_macros": { "P_g": 190, "F_g": 60, "C_g": 220 }
+    },
+    {
+      "day": "Martes",
+      "block": "Lower 1 (Refeed)",
+      "kcal_target": 2450,
+      "meals": [
+        { "name": "Comida 1", "items": "Ternera magra 5% 180 g + arroz basmati 100 g + zanahoria/pepino 200 g + AOVE 10 g" },
+        { "name": "Snack post", "items": "Skyr 200 g + avena 50 g + miel 5 g" },
+        { "name": "Cena", "items": "Pescado blanco 200 g + boniato 220 g + espárragos 200 g" }
+      ],
+      "approx_macros": { "P_g": 190, "F_g": 60, "C_g": 290 }
+    },
+    {
+      "day": "Miércoles",
+      "block": "Push",
+      "kcal_target": 2200,
+      "meals": [
+        { "name": "Comida 1", "items": "Huevos 2 u + claras 5 u + pan integral 60 g + aguacate 40 g" },
+        { "name": "Snack", "items": "Whey 30 g + nueces 15 g" },
+        { "name": "Cena", "items": "Pollo/pavo 190 g + quinoa 60 g + espinaca 200 g + AOVE 5 g" }
+      ],
+      "approx_macros": { "P_g": 190, "F_g": 60, "C_g": 210 }
+    },
+    {
+      "day": "Jueves",
+      "block": "Pull",
+      "kcal_target": 2200,
+      "meals": [
+        { "name": "Comida 1", "items": "Lomo de atún o salmón 170 g + arroz integral 60 g + brócoli 200 g + AOVE 10 g" },
+        { "name": "Snack", "items": "Yogur griego 2% 200 g + almendras 20 g" },
+        { "name": "Cena", "items": "Pavo 190 g + patata 150 g + ensalada verde 200 g + AOVE 5 g" }
+      ],
+      "approx_macros": { "P_g": 190, "F_g": 65, "C_g": 205 }
+    },
+    {
+      "day": "Viernes",
+      "block": "Legs 2 (Refeed)",
+      "kcal_target": 2450,
+      "meals": [
+        { "name": "Comida 1", "items": "Pechuga pollo 200 g + arroz basmati 110 g + verduras mixtas 200 g + AOVE 10 g" },
+        { "name": "Snack post", "items": "Whey 30 g + manzana 150 g" },
+        { "name": "Cena", "items": "Salmón 180 g + boniato 200 g + espárragos 200 g" }
+      ],
+      "approx_macros": { "P_g": 195, "F_g": 65, "C_g_min": 285, "C_g_max": 300 }
+    },
+    {
+      "day": "Sábado",
+      "block": "Upper 2",
+      "kcal_target": 2250,
+      "meals": [
+        { "name": "Comida 1", "items": "Muslo de pollo sin piel 200 g + cuscús 70 g + ensalada 200 g + AOVE 10 g" },
+        { "name": "Snack", "items": "Skyr 200 g + miel 5 g + fruta roja 120 g" },
+        { "name": "Cena", "items": "Caballa/sardina 180 g + arroz 60 g + calabacín 200 g" }
+      ],
+      "approx_macros": { "P_g": 190, "F_g": 65, "C_g_min": 220, "C_g_max": 230 }
+    },
+    {
+      "day": "Domingo",
+      "block": "Descanso activo",
+      "kcal_target_min": 2150,
+      "kcal_target_max": 2200,
+      "meals": [
+        { "name": "Comida 1", "items": "Pavo 190 g + quinoa 50 g + verduras 250 g + AOVE 10 g" },
+        { "name": "Snack", "items": "Yogur natural 200 g + frutos secos 15 g" },
+        { "name": "Cena", "items": "Tortilla (3 huevos) + patata cocida 120 g + ensalada 200 g" }
+      ],
+      "approx_macros": { "P_g_min": 180, "P_g_max": 190, "F_g": 60, "C_g_min": 190, "C_g_max": 200 }
+    }
+  ],
+  "supplements": [
+    "Creatina 3–5 g/día (mañana)",
+    "Omega-3 (EPA/DHA) 2–3 g con comida",
+    "Whey 30 g post-entreno (o para ajustar proteína)",
+    "Magnesio bisglicinato 250–300 mg por la noche"
+  ],
+  "hydration": "3.5–4 L/día; en entrenos largos añade 1 g de sal marina + 1/2 limón por litro.",
+  "fiber": "25–35 g/día (si hay hinchazón, baja crucíferas por la noche).",
+  "quick_adjustments": [
+    { "issue": "Hambre alta", "action": "Añade +10 g de arroz o +1/2 fruta en post-entreno (+40–60 kcal)." },
+    { "issue": "Energía baja en piernas", "action": "Sube +20 g de carbo en la comida 1 de martes/viernes." },
+    { "issue": "Reflujo nocturno", "action": "Sustituye cítricos por fruta roja y usa cocciones suaves (horno/vapor)." }
+  ]
+}
